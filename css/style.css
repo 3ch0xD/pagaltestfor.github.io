@@ -1076,13 +1076,13 @@ ul.social_icon li a:hover {
 }
 
 .copyright {
-     margin-top: 80px;
-     padding-bottom: 20px;
-     background: #fbfdfd;
+     margin-top: 10x;
+     padding-bottom: 10px;
+     background: #1b1b1b;
 }
 
 .copyright p {
-     color: #292929;
+     color: #ffffff;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
@@ -1092,7 +1092,7 @@ ul.social_icon li a:hover {
 }
 
 .copyright a {
-     color: #292929;
+     color: yellow;
 }
 
 .copyright a:hover {
@@ -1137,6 +1137,12 @@ ul.social_icon li a:hover {
 #style-3::-webkit-scrollbar-thumb
 {
 	background-color: #000000;
+}
+
+.form_heading h5 {
+     text-align: center;
+     font-size: 45px;
+     font-weight: 800;
 }
 
 
