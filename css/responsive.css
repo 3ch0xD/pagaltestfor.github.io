@@ -15,7 +15,6 @@
     .text-bg h1 {
         font-size: 76px;
         line-height: 72px;
-        letter-spacing: 60px;
     }
     .we_do .we_box h3 {
         font-size: 19px;
@@ -35,12 +34,10 @@
     }
     .text-bg h1 {
         font-size: 58px;
-        letter-spacing: 43px;
         line-height: 44px;
     }
     .text-bg span {
         font-size: 46px;
-        letter-spacing: 56px;
     }
     .software .titlepage p {
         font-size: 17px;
@@ -90,12 +87,10 @@
 @media (min-width: 576px) and (max-width: 767px) {
     .text-bg h1 {
         font-size: 48px;
-        letter-spacing: 35px;
         line-height: 51px;
     }
     .text-bg span {
         font-size: 41px;
-        letter-spacing: 46px;
     }
     .titlepage h2 {
         font-size: 31px;
@@ -140,7 +135,7 @@
     }
     .logo {
         border: inherit;
-        float: left;
+        float: ;
         margin-top: 0px !important;
     }
     .banner_main {
@@ -149,13 +144,11 @@
     }
     .text-bg h1 {
         font-size: 36px;
-        letter-spacing: 12px;
         padding-bottom: 20px;
         line-height: 32px;
     }
     .text-bg span {
         font-size: 29px;
-        letter-spacing: 26px;
         line-height: 30px;
     }
     .titlepage h2 {
@@ -216,6 +209,7 @@
     }
     .right_bottun {
         margin-top: -105px;
+        align-items:start;
     }
 }
 

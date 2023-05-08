@@ -1116,6 +1116,7 @@ ul.social_icon li a:hover {
      font-size: 17px;
      font-family: 'Open Sans', sans-serif;
      color: yellow;
+     padding-bottom: 10px;
 }
 
 .my a:hover{
