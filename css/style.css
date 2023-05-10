@@ -38,12 +38,84 @@ html {
 }
 
 body {
+     background-color: #11AEEF;
      color: #666666;
      font-size: 14px;
-     font-family: 'Poppins', sans-serif;
+     font-family: "Poppins", sans-serif;
      line-height: 1.80857;
      font-weight: normal;
 }
+
+.logo{
+     width: 6%;
+     height: 6%;
+     padding-top: 1%;
+     padding-bottom: 1%;
+ }
+ 
+ header{
+     position: absolute;
+     width: 100%;
+     padding: 0.9rem 0;
+     top: 0;
+     left: 0;
+     border-bottom:1px solid rgba(255, 255, 255, 0.1);
+ }
+ 
+ header nav{
+     background-color: rgba(255, 47, 47,);
+     max-width: 1400px;
+     margin: 0 auto;
+     padding: 0 2rem;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ header ul{
+     display: flex;
+     align-items: center;
+     list-style: none;
+ }
+ 
+ header ul a{
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+     padding: 0 1.5rem;
+     font-weight: 300;
+ 
+ }
+
+ .p_style{
+     background-color: white;
+ }
+ 
+ 
+ .discordbtn a{
+     font-size: 1.05rem;
+     padding: 0 3rem;
+ }
+
+ 
+ .hamburger{
+     padding-left: 0.5rem;
+ }
+ 
+ .hamburger a{
+     width: 37px;
+     height: 37px;
+     border-radius: 50%;
+     background-color: rgba(115,115,115,0.7);
+     display: flex;
+     padding:0;
+     backdrop-filter: blur(10px);
+     -webkit-backdrop-filter: blur(10px);
+     justify-content: center;
+     align-items: center;
+ }
+
+ 
 
 a {
      color: #1f1f1f;
@@ -96,13 +168,6 @@ h6 {
      font-size: 13px
 }
 
-*,
-*::after,
-*::before {
-     -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-     box-sizing: border-box;
-}
 
 h1 a,
 h2 a,
@@ -300,23 +365,6 @@ button {
      float: right;
 }
 
-.header {
-     width: 100%;
-     padding: 30px 30px;
-     background: transparent;
-     position: absolute;
-     z-index: 999;
-}
-
-.logo {
-     text-align: center;
-     margin-top: -33px !important;
-     max-width: 200px;
-     padding: 15px 0 28px 0;
-     margin: 0 auto;
-}
-
-
 /** banner section **/
 
 .banner_main {
@@ -347,7 +395,6 @@ button {
      font-size: 56px;
      line-height: 50px;
      text-transform: uppercase;
-     letter-spacing: 
 }
 
 
@@ -397,7 +444,7 @@ button {
 #banner1 .carousel-control-next:hover,
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-next:focus {
-     color: #f6f8f7;
+     color: #11AEEF;
 }
 
 #banner1 a.carousel-control-prev {
@@ -999,6 +1046,10 @@ html{
      padding-right: 60px;
 }
 
+li.location_icon{
+     text-align: center;
+}
+
 ul.location_icon {
      font-family: 'Open Sans', sans-serif;
      text-align: center;
@@ -1092,11 +1143,11 @@ ul.social_icon li a:hover {
 }
 
 .copyright a {
-     color: yellow;
+     color: #11AEEF;
 }
 
 .copyright a:hover {
-     color: #11AEEF;
+     color: #008FCA;
 }
 
 .my h4 {
@@ -1115,12 +1166,12 @@ ul.social_icon li a:hover {
 .my a {
      font-size: 17px;
      font-family: 'Open Sans', sans-serif;
-     color: yellow;
+     color: #11AEEF;
      padding-bottom: 10px;
 }
 
 .my a:hover{
-     color: #11AEEF;
+     color: #008FCA;
 }
 
 #style-3::-webkit-scrollbar-track
@@ -1144,6 +1195,7 @@ ul.social_icon li a:hover {
      text-align: center;
      font-size: 45px;
      font-weight: 800;
+     color:#2a2a2c;
 }
 
 
