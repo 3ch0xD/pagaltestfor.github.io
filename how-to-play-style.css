@@ -35,3 +35,14 @@ body{
     max-width: 20%;
     height: auto;
 }
+
+.forward-arrow i{
+    position: absolute;
+    top: 5px;
+    font-size: 60px;
+    margin: 0;
+    left: 5px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    
+}
